@@ -1,15 +1,15 @@
 {
-    "id": "org.stremio.helloworldPython",
+    "id": "org.stremio.RamonAddonTest",
     "version": "1.0.0",
 
-    "name": "Hello World Python Addon",
-    "description": "Sample addon made with Express providing a few public domain movies",
+    "name": "Ramon Addon",
+    "description": "Learning how to make a addon for Stremio",
 
     "types": ["movie", "series"],
 
     "catalogs": [
-            {"type": "movie", "id": "Hello, Python"},
-            {"type": "series", "id": "Hello, Python"}
+            {"type": "movie", "id": "Ramon, Addon"},
+            {"type": "series", "id": "Ramon, Addon"}
     ],
 
     "resources": [

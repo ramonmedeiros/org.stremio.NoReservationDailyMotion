@@ -7,6 +7,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
 
+    - name: generate static files
+        run: make 
+        shell: bash
+
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:

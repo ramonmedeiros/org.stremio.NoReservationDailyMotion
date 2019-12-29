@@ -1,0 +1,21 @@
+{
+    "id": "org.stremio.helloworldPython",
+    "version": "1.0.0",
+
+    "name": "Hello World Python Addon",
+    "description": "Sample addon made with Express providing a few public domain movies",
+
+    "types": ["movie", "series"],
+
+    "catalogs": [
+            {"type": "movie", "id": "Hello, Python"},
+            {"type": "series", "id": "Hello, Python"}
+    ],
+
+    "resources": [
+        "catalog",
+        {"name": "meta", "types": ["series"], "idPrefixes": ["hpy"]},
+        {"name": "stream", "types": [
+            "movie", "series"], "idPrefixes": ["tt", "hpy"]}
+    ]
+}

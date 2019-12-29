@@ -60,7 +60,7 @@ class GenerateStaticFiles():
     def saveStaticFile(self, content, path):
         with open(path, "w") as fd:
             fd.write(self.dumpsPretty(content))
-        logging.info(f"File {path} is created")
+        logging.warn(f"File {path} is created")
 
     def generateManifest(self):
         self.saveStaticFile(self.manifest,

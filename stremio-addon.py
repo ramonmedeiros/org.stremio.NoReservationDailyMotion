@@ -1,26 +1,17 @@
 #!/usr/bin/env python3
 
-import json
+from generate_static_files import GenerateStaticFiles, METAHUB_URL, OPTIONAL_META
 
 from flask import Flask, Response, jsonify, url_for, abort
 from functools import wraps
 
-# This is template we'll be using to construct URL for the item poster
-METAHUB_URL = 'https://images.metahub.space/poster/medium/{}/img'
-
-OPTIONAL_META = ["posterShape", "background", "logo", "videos", "description", "releaseInfo", "imdbRating", "director", "cast",
-                 "dvdRelease", "released", "inTheaters", "certification", "runtime", "language", "country", "awards", "website", "isPeered"]
 
 app = Flask(__name__)
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 
-def getFiles(path):
-    with open(path) as fd:
-        return json.loads(fd.read())
-
-MANIFEST = getFiles("MANIFEST")
-CATALOG = getFiles("CATALOG")
-STREAMS = getFiles("STREAMS")
+MANIFEST = GenerateStaticFiles.getFiles("src/MANIFEST")
+CATALOG = GenerateStaticFiles.getFiles("src/CATALOG")
+STREAMS = GenerateStaticFiles.getFiles("src/STREAMS")
 
 def respond_with(data):
     resp = jsonify(data)

@@ -1,0 +1,41 @@
+{
+    "movie": [
+        {"id": "tt0032138", "name": "The Wizard of Oz", "genres": [
+            "Adventure", "Family", "Fantasy", "Musical"]},
+        {"id": "tt0017136", "name": "Metropolis",
+         "genres": ["Drama", "Sci-Fi"]},
+        {"id": "tt0051744", "name": "House on Haunted Hill",
+         "genres": ["Horror", "Mystery"]},
+        {"id": "tt1254207", "name": "Big Buck Bunny",
+         "genres": ["Animation", "Short", "Comedy"]},
+        {"id": "tt0031051", "name": "The Arizona Kid",
+         "genres": ["Music", "War", "Western"]},
+        {"id": "tt0137523", "name": "Fight Club", "genres": ["Drama"]}
+    ],
+    "series": [
+        {
+            "id": "tt1748166",
+            "name": "Pioneer One",
+            "genres": ["Drama"],
+            "videos": [
+                    {"season": 1, "episode": 1, "id": "tt1748166:1:1",
+                        "title": "Earthfall", "released": "2010-06-16"}
+            ]
+        },
+        {
+            "id": "hpytt0147753",
+            "name": "Captain Z-Ro",
+            "description": "From his secret laboratory, Captain Z-Ro and his associates use their time machine, the ZX-99, to learn from the past and plan for the future.",
+            "releaseInfo": "1955-1956",
+            "logo": "https://fanart.tv/fanart/tv/70358/hdtvlogo/captain-z-ro-530995d5e979d.png",
+            "imdbRating": 6.9,
+            "genres": ["Sci-Fi"],
+            "videos": [
+                    {"season": 1, "episode": 1, "id": "hpytt0147753:1:1",
+                        "title": "Christopher Columbus", "released": "1955-12-18"},
+                    {"season": 1, "episode": 2, "id": "hpytt0147753:1:2",
+                        "title": "Daniel Boone", "released": "1955-12-25"}
+            ]
+        }
+    ]
+}

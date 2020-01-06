@@ -1,21 +1,19 @@
 {
-    "id": "org.stremio.RamonAddonTest",
+    "id": "org.stremio.Anthony Bourdain Fans",
     "version": "1.0.0",
 
-    "name": "Ramon Addon",
-    "description": "Learning how to make a addon for Stremio",
+    "name": "Anthony Bourdain Fans",
+    "description": "External links for Anthony Bourdain series",
 
-    "types": ["movie", "series"],
+    "types": ["series"],
 
     "catalogs": [
-            {"type": "movie", "id": "Ramon, Addon"},
-            {"type": "series", "id": "Ramon, Addon"}
+            {"type": "series", "id": "Anthony Bourdain Fans"}
     ],
 
     "resources": [
         "catalog",
         {"name": "meta", "types": ["series"], "idPrefixes": ["hpy"]},
-        {"name": "stream", "types": [
-            "movie", "series"], "idPrefixes": ["tt", "hpy"]}
+        {"name": "stream", "types": ["series"], "idPrefixes": ["tt", "hpy"]}
     ]
 }

@@ -121,6 +121,3 @@ class GenerateStaticFiles():
         self.generateMeta()
         self.generateStream()
 
-
-if __name__ == '__main__':
-    GenerateStaticFiles().main()

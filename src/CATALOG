@@ -1,41 +1,870 @@
 {
-    "movie": [
-        {"id": "tt0032138", "name": "The Wizard of Oz", "genres": [
-            "Adventure", "Family", "Fantasy", "Musical"]},
-        {"id": "tt0017136", "name": "Metropolis",
-         "genres": ["Drama", "Sci-Fi"]},
-        {"id": "tt0051744", "name": "House on Haunted Hill",
-         "genres": ["Horror", "Mystery"]},
-        {"id": "tt1254207", "name": "Big Buck Bunny",
-         "genres": ["Animation", "Short", "Comedy"]},
-        {"id": "tt0031051", "name": "The Arizona Kid",
-         "genres": ["Music", "War", "Western"]},
-        {"id": "tt0137523", "name": "Fight Club", "genres": ["Drama"]}
-    ],
-    "series": [
+  "series": [
+    {
+      "id": "tt0475900",
+      "name": "Anthony Bourdain: No Reservations",
+      "description": "Anthony Bourdain, chef, writer, traveler, visits places all around the world sampling various foods.",
+      "releaseInfo": "2005-2012",
+      "logo": "https://i1.wp.com/www.renewcanceltv.com/wp-content/uploads/2019/05/Anthony_Bourdain_No_Reservations_hero.jpg",
+      "imdbRating": 8.4,
+      "genres": [
+        "Adventure",
+        "Reality-TV"
+      ],
+      "videos": [
         {
-            "id": "tt1748166",
-            "name": "Pioneer One",
-            "genres": ["Drama"],
-            "videos": [
-                    {"season": 1, "episode": 1, "id": "tt1748166:1:1",
-                        "title": "Earthfall", "released": "2010-06-16"}
-            ]
+          "episode": 9,
+          "id": "tt0475900:8:9",
+          "season": 8,
+          "title": "Austin"
         },
         {
-            "id": "hpytt0147753",
-            "name": "Captain Z-Ro",
-            "description": "From his secret laboratory, Captain Z-Ro and his associates use their time machine, the ZX-99, to learn from the past and plan for the future.",
-            "releaseInfo": "1955-1956",
-            "logo": "https://fanart.tv/fanart/tv/70358/hdtvlogo/captain-z-ro-530995d5e979d.png",
-            "imdbRating": 6.9,
-            "genres": ["Sci-Fi"],
-            "videos": [
-                    {"season": 1, "episode": 1, "id": "hpytt0147753:1:1",
-                        "title": "Christopher Columbus", "released": "1955-12-18"},
-                    {"season": 1, "episode": 2, "id": "hpytt0147753:1:2",
-                        "title": "Daniel Boone", "released": "1955-12-25"}
-            ]
+          "episode": 18,
+          "id": "tt0475900:8:18",
+          "season": 8,
+          "title": "Brooklyn"
+        },
+        {
+          "episode": 14,
+          "id": "tt0475900:2:14",
+          "season": 2,
+          "title": "Beirut"
+        },
+        {
+          "episode": 10,
+          "id": "tt0475900:8:10",
+          "season": 8,
+          "title": "Sydney"
+        },
+        {
+          "episode": 10,
+          "id": "tt0475900:7:10",
+          "season": 7,
+          "title": "Macau"
+        },
+        {
+          "episode": 5,
+          "id": "tt0475900:4:5",
+          "season": 4,
+          "title": "New Orleans"
+        },
+        {
+          "episode": 15,
+          "id": "tt0475900:5:15",
+          "season": 5,
+          "title": "San Francisco"
+        },
+        {
+          "episode": 8,
+          "id": "tt0475900:3:8",
+          "season": 3,
+          "title": "New York City"
+        },
+        {
+          "episode": 2,
+          "id": "tt0475900:1:2",
+          "season": 1,
+          "title": "Iceland (Hello Darkness My Old Friend)"
+        },
+        {
+          "episode": 7,
+          "id": "tt0475900:2:7",
+          "season": 2,
+          "title": "Puerto Rico"
+        },
+        {
+          "episode": 9,
+          "id": "tt0475900:7:9",
+          "season": 7,
+          "title": "Cuba"
+        },
+        {
+          "episode": 2,
+          "id": "tt0475900:2:2",
+          "season": 2,
+          "title": "South Florida - Part 01"
+        },
+        {
+          "episode": 17,
+          "id": "tt0475900:7:17",
+          "season": 7,
+          "title": "Holiday Special"
+        },
+        {
+          "episode": 12,
+          "id": "tt0475900:4:12",
+          "season": 4,
+          "title": "Colombia"
+        },
+        {
+          "episode": 2,
+          "id": "tt0475900:8:2",
+          "season": 8,
+          "title": "Kansas City"
+        },
+        {
+          "episode": 1,
+          "id": "tt0475900:4:1",
+          "season": 4,
+          "title": "Singapore"
+        },
+        {
+          "episode": 8,
+          "id": "tt0475900:8:8",
+          "season": 8,
+          "title": "Penang"
+        },
+        {
+          "episode": 8,
+          "id": "tt0475900:7:8",
+          "season": 7,
+          "title": "Japan Hokkaido"
+        },
+        {
+          "episode": 1,
+          "id": "tt0475900:5:1",
+          "season": 5,
+          "title": "Mexico"
+        },
+        {
+          "episode": 6,
+          "id": "tt0475900:2:6",
+          "season": 2,
+          "title": "Sweden"
+        },
+        {
+          "episode": 7,
+          "id": "tt0475900:4:7",
+          "season": 4,
+          "title": "Jamaica"
+        },
+        {
+          "episode": 2,
+          "id": "tt0475900:7:2",
+          "season": 7,
+          "title": "Cambodia"
+        },
+        {
+          "episode": 10,
+          "id": "tt0475900:2:10",
+          "season": 2,
+          "title": "India (Kolkata-Mumbai)"
+        },
+        {
+          "episode": 20,
+          "id": "tt0475900:5:20",
+          "season": 5,
+          "title": "Sardinia"
+        },
+        {
+          "episode": 12,
+          "id": "tt0475900:8:12",
+          "season": 8,
+          "title": "Emilia Romagna"
+        },
+        {
+          "episode": 7,
+          "id": "tt0475900:8:7",
+          "season": 8,
+          "title": "Baja"
+        },
+        {
+          "episode": 11,
+          "id": "tt0475900:2:11",
+          "season": 2,
+          "title": "Korea"
+        },
+        {
+          "episode": 17,
+          "id": "tt0475900:8:17",
+          "season": 8,
+          "title": "Dominican Republic"
+        },
+        {
+          "episode": 1,
+          "id": "tt0475900:2:1",
+          "season": 2,
+          "title": "Asia"
+        },
+        {
+          "episode": 1,
+          "id": "tt0475900:6:1",
+          "season": 6,
+          "title": "Panama"
+        },
+        {
+          "episode": 9,
+          "id": "tt0475900:5:9",
+          "season": 5,
+          "title": "Sri Lanka"
+        },
+        {
+          "episode": 13,
+          "id": "tt0475900:3:13",
+          "season": 3,
+          "title": "Argentina"
+        },
+        {
+          "episode": 25,
+          "id": "tt0475900:6:25",
+          "season": 6,
+          "title": "Madrid"
+        },
+        {
+          "episode": 5,
+          "id": "tt0475900:8:5",
+          "season": 8,
+          "title": "Japan Cook It Raw"
+        },
+        {
+          "episode": 4,
+          "id": "tt0475900:1:4",
+          "season": 1,
+          "title": "Vietnam (The Island Of Mr. Sang)"
+        },
+        {
+          "episode": 11,
+          "id": "tt0475900:8:11",
+          "season": 8,
+          "title": ""
+        },
+        {
+          "episode": 3,
+          "id": "tt0475900:3:3",
+          "season": 3,
+          "title": "Pacific Northwest"
+        },
+        {
+          "episode": 5,
+          "id": "tt0475900:6:5",
+          "season": 6,
+          "title": "New York Hudson Valley"
+        },
+        {
+          "episode": 2,
+          "id": "tt0475900:2:2",
+          "season": 2,
+          "title": "South Florida - Part 02"
+        },
+        {
+          "episode": 1,
+          "id": "tt0475900:3:1",
+          "season": 3,
+          "title": "Ireland"
+        },
+        {
+          "episode": 4,
+          "id": "tt0475900:5:4",
+          "season": 5,
+          "title": "Azores"
+        },
+        {
+          "episode": 7,
+          "id": "tt0475900:7:7",
+          "season": 7,
+          "title": "Boston"
+        },
+        {
+          "episode": 1,
+          "id": "tt0475900:8:1",
+          "season": 8,
+          "title": "Mozambique"
+        },
+        {
+          "episode": 5,
+          "id": "tt0475900:1:5",
+          "season": 1,
+          "title": "Malaysia (Into The Jungle)"
+        },
+        {
+          "episode": 19,
+          "id": "tt0475900:5:19",
+          "season": 5,
+          "title": "New York Outer Boroughs"
+        },
+        {
+          "episode": 13,
+          "id": "tt0475900:8:13",
+          "season": 8,
+          "title": "Burgundy"
+        },
+        {
+          "episode": 12,
+          "id": "tt0475900:2:12",
+          "season": 2,
+          "title": "Indonesia"
+        },
+        {
+          "episode": 17,
+          "id": "tt0475900:5:17",
+          "season": 5,
+          "title": "Montana"
+        },
+        {
+          "episode": 10,
+          "id": "tt0475900:5:10",
+          "season": 5,
+          "title": "Vietnam There's No Place Like Home"
+        },
+        {
+          "episode": 3,
+          "id": "tt0475900:8:3",
+          "season": 8,
+          "title": "Croatian Coast"
+        },
+        {
+          "episode": 17,
+          "id": "tt0475900:6:17",
+          "season": 6,
+          "title": "Kerala, India"
+        },
+        {
+          "episode": 12,
+          "id": "tt0475900:3:12",
+          "season": 3,
+          "title": "Hong Kong"
+        },
+        {
+          "episode": 5,
+          "id": "tt0475900:2:5",
+          "season": 2,
+          "title": "Quebec"
+        },
+        {
+          "episode": 2,
+          "id": "tt0475900:5:2",
+          "season": 5,
+          "title": "Venice"
+        },
+        {
+          "episode": 7,
+          "id": "tt0475900:3:7",
+          "season": 3,
+          "title": "Shanghai"
+        },
+        {
+          "episode": 4,
+          "id": "tt0475900:2:4",
+          "season": 2,
+          "title": "Canada"
+        },
+        {
+          "episode": 8,
+          "id": "tt0475900:6:8",
+          "season": 6,
+          "title": "Harbin, China"
+        },
+        {
+          "episode": 10,
+          "id": "tt0475900:1:10",
+          "season": 1,
+          "title": "Tony And Friends Eric Ripert"
+        },
+        {
+          "episode": 8,
+          "id": "tt0475900:5:8",
+          "season": 5,
+          "title": "Disappearing Manhattan"
+        },
+        {
+          "episode": 19,
+          "id": "tt0475900:6:19",
+          "season": 6,
+          "title": "Dubai"
+        },
+        {
+          "episode": 4,
+          "id": "tt0475900:8:4",
+          "season": 8,
+          "title": "Lisbon"
+        },
+        {
+          "episode": 10,
+          "id": "tt0475900:4:10",
+          "season": 4,
+          "title": "Into The Fire Ny"
+        },
+        {
+          "episode": 13,
+          "id": "tt0475900:2:13",
+          "season": 2,
+          "title": "Decoding Ferran Adria"
+        },
+        {
+          "episode": 3,
+          "id": "tt0475900:1:3",
+          "season": 1,
+          "title": "New Jersey (Off The Jersey Turnpike)"
+        },
+        {
+          "episode": 6,
+          "id": "tt0475900:7:6",
+          "season": 7,
+          "title": "Brazil"
+        },
+        {
+          "episode": 18,
+          "id": "tt0475900:5:18",
+          "season": 5,
+          "title": "Burning Questions"
+        },
+        {
+          "episode": 11,
+          "id": "tt0475900:4:11",
+          "season": 4,
+          "title": "Laos"
+        },
+        {
+          "episode": 5,
+          "id": "tt0475900:7:5",
+          "season": 7,
+          "title": "Ozarks"
+        },
+        {
+          "episode": 6,
+          "id": "tt0475900:4:6",
+          "season": 4,
+          "title": "London-Edinburgh"
+        },
+        {
+          "episode": 3,
+          "id": "tt0475900:6:3",
+          "season": 6,
+          "title": "Brittany"
+        },
+        {
+          "episode": 15,
+          "id": "tt0475900:8:15",
+          "season": 8,
+          "title": "Rio"
+        },
+        {
+          "episode": 14,
+          "id": "tt0475900:4:14",
+          "season": 4,
+          "title": "Uruguay"
+        },
+        {
+          "episode": 3,
+          "id": "tt0475900:5:3",
+          "season": 5,
+          "title": "Washington D.C."
+        },
+        {
+          "episode": 4,
+          "id": "tt0475900:4:4",
+          "season": 4,
+          "title": "Greek Islands"
+        },
+        {
+          "episode": 6,
+          "id": "tt0475900:3:6",
+          "season": 3,
+          "title": "Los Angeles"
+        },
+        {
+          "episode": 15,
+          "id": "tt0475900:6:15",
+          "season": 6,
+          "title": "Heartland"
+        },
+        {
+          "episode": 2,
+          "id": "tt0475900:3:2",
+          "season": 3,
+          "title": "Ghana"
+        },
+        {
+          "episode": 6,
+          "id": "tt0475900:1:6",
+          "season": 1,
+          "title": "Sicily"
+        },
+        {
+          "episode": 8,
+          "id": "tt0475900:1:8",
+          "season": 1,
+          "title": "Uzbekistan"
+        },
+        {
+          "episode": 13,
+          "id": "tt0475900:4:13",
+          "season": 4,
+          "title": "Saudi Arabia"
+        },
+        {
+          "episode": 22,
+          "id": "tt0475900:6:22",
+          "season": 6,
+          "title": "Making Of India"
+        },
+        {
+          "episode": 14,
+          "id": "tt0475900:3:14",
+          "season": 3,
+          "title": "South Carolina"
+        },
+        {
+          "episode": 9,
+          "id": "tt0475900:1:9",
+          "season": 1,
+          "title": "New Zealand Down Under The Down Under"
+        },
+        {
+          "episode": 3,
+          "id": "tt0475900:7:3",
+          "season": 7,
+          "title": "Nicaragua"
+        },
+        {
+          "episode": 19,
+          "id": "tt0475900:4:19",
+          "season": 4,
+          "title": "So Long Summer"
+        },
+        {
+          "episode": 4,
+          "id": "tt0475900:9:4",
+          "season": 9,
+          "title": "Asia Files Volume 4"
+        },
+        {
+          "episode": 14,
+          "id": "tt0475900:7:14",
+          "season": 7,
+          "title": "Ukraine"
+        },
+        {
+          "episode": 16,
+          "id": "tt0475900:4:16",
+          "season": 4,
+          "title": "Tokyo"
+        },
+        {
+          "episode": 11,
+          "id": "tt0475900:3:11",
+          "season": 3,
+          "title": "Cleveland"
+        },
+        {
+          "episode": 14,
+          "id": "tt0475900:6:14",
+          "season": 6,
+          "title": "Caribbean Island Hopping"
+        },
+        {
+          "episode": 9,
+          "id": "tt0475900:4:9",
+          "season": 4,
+          "title": "Hawaii"
+        },
+        {
+          "episode": 5,
+          "id": "tt0475900:5:5",
+          "season": 5,
+          "title": "Chicago"
+        },
+        {
+          "episode": 12,
+          "id": "tt0475900:5:12",
+          "season": 5,
+          "title": "Australia"
+        },
+        {
+          "episode": 7,
+          "id": "tt0475900:1:7",
+          "season": 1,
+          "title": "Las Vegas"
+        },
+        {
+          "episode": 16,
+          "id": "tt0475900:3:16",
+          "season": 3,
+          "title": "Anthony Bourdain Holiday Special"
+        },
+        {
+          "episode": 8,
+          "id": "tt0475900:4:8",
+          "season": 4,
+          "title": "Romania"
+        },
+        {
+          "episode": 4,
+          "id": "tt0475900:7:4",
+          "season": 7,
+          "title": "Vienna"
+        },
+        {
+          "episode": 16,
+          "id": "tt0475900:7:16",
+          "season": 7,
+          "title": "Cajun Country"
+        },
+        {
+          "episode": 16,
+          "id": "tt0475900:5:16",
+          "season": 5,
+          "title": "Thailand"
+        },
+        {
+          "episode": 18,
+          "id": "tt0475900:6:18",
+          "season": 6,
+          "title": "Where It All Began"
+        },
+        {
+          "episode": 16,
+          "id": "tt0475900:5:16",
+          "season": 5,
+          "title": "Thailand"
+        },
+        {
+          "episode": 4,
+          "id": "tt0475900:7:4",
+          "season": 7,
+          "title": "Vienna"
+        },
+        {
+          "episode": 16,
+          "id": "tt0475900:7:16",
+          "season": 7,
+          "title": "Cajun Country"
+        },
+        {
+          "episode": 2,
+          "id": "tt0475900:9:2",
+          "season": 9,
+          "title": "Asia Files Volume 2"
+        },
+        {
+          "episode": 18,
+          "id": "tt0475900:6:18",
+          "season": 6,
+          "title": "Where It All Began"
+        },
+        {
+          "episode": 11,
+          "id": "tt0475900:6:11",
+          "season": 6,
+          "title": "Techniques"
+        },
+        {
+          "episode": 10,
+          "id": "tt0475900:3:10",
+          "season": 3,
+          "title": "French Polynesia"
+        },
+        {
+          "episode": 7,
+          "id": "tt0475900:6:7",
+          "season": 6,
+          "title": "Obsessed"
+        },
+        {
+          "episode": 15,
+          "id": "tt0475900:7:15",
+          "season": 7,
+          "title": "Kurdistan"
+        },
+        {
+          "episode": 14,
+          "id": "tt0475900:5:14",
+          "season": 5,
+          "title": "On The Street"
+        },
+        {
+          "episode": 14,
+          "id": "tt0475900:3:14",
+          "season": 3,
+          "title": "South Carolina"
+        },
+        {
+          "episode": 26,
+          "id": "tt0475900:6:26",
+          "season": 6,
+          "title": "Holiday Special"
+        },
+        {
+          "episode": 6,
+          "id": "tt0475900:5:6",
+          "season": 5,
+          "title": "Food P_rn"
+        },
+        {
+          "episode": 4,
+          "id": "tt0475900:6:4",
+          "season": 6,
+          "title": "Prague"
+        },
+        {
+          "episode": 9,
+          "id": "tt0475900:3:9",
+          "season": 3,
+          "title": "Brazil"
+        },
+        {
+          "episode": 6,
+          "id": "tt0475900:6:6",
+          "season": 6,
+          "title": "Ecuador"
+        },
+        {
+          "episode": 23,
+          "id": "tt0475900:6:23",
+          "season": 6,
+          "title": "What Were We Thinking Special"
+        },
+        {
+          "episode": 13,
+          "id": "tt0475900:6:13",
+          "season": 6,
+          "title": "Food P_Rn 2"
+        },
+        {
+          "episode": 21,
+          "id": "tt0475900:6:21",
+          "season": 6,
+          "title": "Back To Beirut"
+        },
+        {
+          "episode": 13,
+          "id": "tt0475900:5:13",
+          "season": 5,
+          "title": "Rust Belt"
+        },
+        {
+          "episode": 5,
+          "id": "tt0475900:3:5",
+          "season": 3,
+          "title": "Russia"
+        },
+        {
+          "episode": 3,
+          "id": "tt0475900:4:3",
+          "season": 4,
+          "title": "Vancouver, Bc"
+        },
+        {
+          "episode": 15,
+          "id": "tt0475900:3:15",
+          "season": 3,
+          "title": "Tuscany"
+        },
+        {
+          "episode": 6,
+          "id": "tt0475900:8:6",
+          "season": 8,
+          "title": "Finland"
+        },
+        {
+          "episode": 16,
+          "id": "tt0475900:8:16",
+          "season": 8,
+          "title": "Off The Charts"
+        },
+        {
+          "episode": 17,
+          "id": "tt0475900:4:17",
+          "season": 4,
+          "title": "Spain"
+        },
+        {
+          "episode": 3,
+          "id": "tt0475900:2:3",
+          "season": 2,
+          "title": "Peru"
+        },
+        {
+          "episode": 1,
+          "id": "tt0475900:9:1",
+          "season": 9,
+          "title": "Asia Files Volume 1"
+        },
+        {
+          "episode": 11,
+          "id": "tt0475900:7:11",
+          "season": 7,
+          "title": "Naples"
+        },
+        {
+          "episode": 2,
+          "id": "tt0475900:4:2",
+          "season": 4,
+          "title": "Berlin"
+        },
+        {
+          "episode": 1,
+          "id": "tt0475900:7:1",
+          "season": 7,
+          "title": "Haiti"
+        },
+        {
+          "episode": 2,
+          "id": "tt0475900:6:2",
+          "season": 6,
+          "title": "Istanbul"
+        },
+        {
+          "episode": 8,
+          "id": "tt0475900:2:8",
+          "season": 2,
+          "title": "Mexico & Us Border"
+        },
+        {
+          "episode": 24,
+          "id": "tt0475900:6:24",
+          "season": 6,
+          "title": "Paris"
+        },
+        {
+          "episode": 18,
+          "id": "tt0475900:4:18",
+          "season": 4,
+          "title": "Egypt"
+        },
+        {
+          "episode": 1,
+          "id": "tt0475900:1:1",
+          "season": 1,
+          "title": "Why The French Don't S_ck"
+        },
+        {
+          "episode": 15,
+          "id": "tt0475900:4:15",
+          "season": 4,
+          "title": "U.S. Southwest"
+        },
+        {
+          "episode": 13,
+          "id": "tt0475900:7:13",
+          "season": 7,
+          "title": "U.S. Desert"
+        },
+        {
+          "episode": 12,
+          "id": "tt0475900:6:12",
+          "season": 6,
+          "title": "Maine"
+        },
+        {
+          "episode": 20,
+          "id": "tt0475900:6:20",
+          "season": 6,
+          "title": "Rome"
+        },
+        {
+          "episode": 11,
+          "id": "tt0475900:5:11",
+          "season": 5,
+          "title": "Chile"
+        },
+        {
+          "episode": 7,
+          "id": "tt0475900:5:7",
+          "season": 5,
+          "title": "Philippines"
         }
-    ]
+      ]
+    }
+  ]
 }

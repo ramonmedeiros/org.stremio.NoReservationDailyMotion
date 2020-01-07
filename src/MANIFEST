@@ -1,5 +1,5 @@
 {
-    "id": "org.stremio.Anthony Bourdain Fans",
+    "id": "org.stremio.AnthonyBourdainFans",
     "version": "1.0.0",
 
     "name": "Anthony Bourdain Fans",
@@ -8,12 +8,12 @@
     "types": ["series"],
 
     "catalogs": [
-            {"type": "series", "id": "Anthony Bourdain Fans"}
+            {"type": "series", "id": "tt0475900", "name": "Anthony Bourdain: No Reservations"}
     ],
 
     "resources": [
         "catalog",
-        {"name": "meta", "types": ["series"], "idPrefixes": ["hpy"]},
+        {"name": "meta", "types": ["series"], "idPrefixes": ["tt", "hpy"]},
         {"name": "stream", "types": ["series"], "idPrefixes": ["tt", "hpy"]}
     ]
 }

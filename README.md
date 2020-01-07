@@ -1,9 +1,9 @@
-# Stremio Addon MASTERS 2020
+# "No Reservations" Stremio Addon
 
-I will try to submit a new addon for Stremio in this competition.
+Addon to add the entire "No Reservations" show using dailymotion.com as source
 
-To know more about it: https://www.stremio.com/competition
 
-## Tutorial
+
+# Tutorial
 
 https://github.com/Stremio/stremio-addon-sdk/blob/master/docs/examples.md

@@ -1,0 +1,39 @@
+{
+  "catalogs": [
+    {
+      "id": "tt0475900",
+      "name": "Anthony Bourdain: No Reservations",
+      "type": "series"
+    }
+  ],
+  "description": "Anthony Bourdain series at Dailymotion.com",
+  "id": "org.stremio.AnthonyBourdainFans",
+  "name": "Anthony Bourdain Fans",
+  "resources": [
+    "catalog",
+    {
+      "idPrefixes": [
+        "tt",
+        "hpy"
+      ],
+      "name": "meta",
+      "types": [
+        "series"
+      ]
+    },
+    {
+      "idPrefixes": [
+        "tt",
+        "hpy"
+      ],
+      "name": "stream",
+      "types": [
+        "series"
+      ]
+    }
+  ],
+  "types": [
+    "series"
+  ],
+  "version": "1.0.1"
+}

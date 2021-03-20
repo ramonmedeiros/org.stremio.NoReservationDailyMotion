@@ -7,7 +7,7 @@ iso-639==0.4.5
 iso3166==1.0.1
 isodate==0.6.0
 itsdangerous==1.1.0
-Jinja2==2.10.3
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 pycryptodome==3.9.4
 PySocks==1.7.1
